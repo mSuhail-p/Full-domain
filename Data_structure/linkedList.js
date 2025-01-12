@@ -5,7 +5,7 @@
 
 
 
-// Implementation  (APPEND , PREPEND , REVERING , PRINTING,merging)
+// Implementation  (APPEND , PREPEND , REVERING , PRINTING, MERGING , DELETE A NODE)
 
 class node {
     constructor(value) {
