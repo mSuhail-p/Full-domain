@@ -1,6 +1,6 @@
 
 
-// find the first non repeat charector from below the string 
+// find the first non repeat charector from below string 
 // let str = 'awecwcsxsfkl'
 // let flag = false
 
