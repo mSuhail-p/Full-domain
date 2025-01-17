@@ -60,4 +60,99 @@
 
 //QST =>  FIND THE LARGEST NUMBER IN AN UNSORTED ARRAY 
 
-   
+
+
+// setImmediate(() => {
+
+//     console.log('setImmediate')
+// }) 
+// process.nextTick(()=>{
+//     console.log('working process.nextTick')
+// })
+
+// setTimeout(()=>{
+//     console.log('working setTimeOut')
+// })
+
+// console.log('working normal')
+
+// ..................................................
+
+// CALLBACK HELL
+
+// function a(callback){
+    //     console.log('a is working')
+    //     callback()
+    // }
+    
+    // function b(callback){
+    //     console.log('b is working')
+    //     callback()
+    // }
+    
+    // function c(callback){
+    //     console.log('c is working')
+    //     callback()
+    // }
+    // function d(callback){
+    //     console.log('d is working')
+    //     callback()
+    // }
+    
+    // function e(){
+    //     console.log('e is working')
+    // }
+    
+    
+    //  a(()=>{
+    //     b(()=>{
+    //         c(()=>{
+    //             d(()=>{
+    //                 e()
+    //             })
+    //         })
+    //     })
+    //  })
+
+
+
+    // Resolving this issue with PROMISE
+
+    // function a(){
+    //     return new Promise((resolve)=>{
+    //         console.log('a is working')
+    //         resolve()
+    //     })
+    // }
+
+    // function b(){
+    //     return new Promise((resolve)=>{
+    //         console.log('b is working')
+    //         resolve()
+    //     })
+    // }
+
+    // function c(){
+    //     return new Promise((resolve,rej)=>{
+    //         console.log('c is working');
+    //         rej("it is not working")
+            
+    //     })
+    // }
+    // a()
+    // .then(()=>b())
+    // .then(()=>c())
+    // .finally(()=>{
+    //     console.log("ti will work what ever will be happened ");
+        
+    // })
+    // .catch((err)=>{
+    //     console.log(err)
+    // })
+    
+
+    /* PROMISE HAS THREE STATES -> RESOLVE , REJECT , PENDING */
+    
+    
+
+     
