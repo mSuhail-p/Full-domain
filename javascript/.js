@@ -153,6 +153,18 @@
 
     /* PROMISE HAS THREE STATES -> RESOLVE , REJECT , PENDING */
     
-    
 
-     
+
+    // Q- remove object key that holds array that contains the largest number
+
+    let obj = {
+        a: [1, 2, 3],
+        b: [4, 5, 6],
+        c: [7, 8, 9]
+    };
+
+    
+    let arr = []
+    for(let i=0;i<Object.keys(obj).length;i++){
+        arr.push()
+    }
